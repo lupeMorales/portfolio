@@ -1,9 +1,14 @@
 import "../styles/App.scss";
 
+//components
+import HamburguerMenu from "./HamburgerMenu";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <header>
+        <HamburguerMenu />
+      </header>
     </div>
   );
 }

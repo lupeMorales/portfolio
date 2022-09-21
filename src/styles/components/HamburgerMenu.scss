@@ -1,0 +1,38 @@
+.navbar {
+  &__icon {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 1rem;
+    right: 2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: red;
+    cursor: pointer;
+  }
+  &__line--1,
+  &__line--2,
+  &__line--3 {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 3px;
+    transition: 0.4s;
+  }
+}
+
+///transform in x
+.active {
+  .navbar__line--1 {
+    transform: rotate(-45deg) translate(-1.8px, 4px);
+  }
+  .navbar__line--2 {
+    display: none;
+  }
+  .navbar__line--3 {
+    transform: rotate(45deg) translate(-1.8px, -3.5px);
+  }
+}
