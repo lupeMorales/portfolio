@@ -2,6 +2,7 @@ import "../styles/App.scss";
 
 //components
 import HamburguerMenu from "./HamburgerMenu";
+import Hello from "./Hello";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <header>
         <HamburguerMenu />
       </header>
+      <main>
+        <Hello />
+      </main>
     </div>
   );
 }
