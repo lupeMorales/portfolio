@@ -4,11 +4,11 @@ const Hello = () => {
     <section className="hello">
       <p className="hello__lupe">lupe morales</p>
       <div className="hello__txt-container">
-        <h1 className="hello__title">hello</h1>
+        <h1 className="hello__title">
+          hola<span className="hello__exclamation">!</span>
+        </h1>
 
-        <h2 className="hello__static-txt">
-          soy frontend <span className="hello__point"></span>
-        </h2>
+        <h2 className="hello__static-txt">soy frontend</h2>
       </div>
     </section>
   );

@@ -36,13 +36,8 @@
     font-weight: 900;
     text-transform: uppercase;
   }
-  &__point {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 50px;
-    background-color: $mainColor;
-    transform: translate(2px, 10px);
+  &__exclamation {
+    color: $mainColor;
   }
 
   &__static-txt {
