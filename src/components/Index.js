@@ -1,0 +1,36 @@
+/* import { Link } from  */ "react-router-dom";
+import { Link } from "react-router-dom";
+import "../styles/layouts/Index.scss";
+
+const Index = () => {
+  return (
+    <section className="index">
+      <div className="index__container">
+        <ul className="index__items ">
+          <li>
+            <Link to="/" className="index__link">
+              home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="index__link">
+              {" "}
+              sobre mi
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects" className="index__link">
+              proyectos
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="index__link">
+              contacto
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+};
+export default Index;
