@@ -32,9 +32,21 @@
     width: 160px;
     height: auto;
     overflow-wrap: anywhere;
-    font-size: 8.8rem;
+    font-size: clamp(8.8rem, 20vw, 22rem);
     font-weight: 900;
     text-transform: uppercase;
+    @media all and (min-width: 768px) {
+      width: 280px;
+      line-height: 120px;
+    }
+    @media all and (min-width: 1024px) {
+      width: 380px;
+      line-height: 180px;
+    }
+    @media all and (min-width: 1440px) {
+      width: 440px;
+      line-height: 180px;
+    }
   }
   &__exclamation {
     color: $mainColor;
@@ -42,7 +54,7 @@
 
   &__static-txt {
     display: block;
-    font-size: 2rem;
+    font-size: clamp(2rem, 5vw, 4rem);
     text-transform: uppercase;
     font-weight: 900;
     color: black;
