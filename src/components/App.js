@@ -11,11 +11,13 @@ import Contact from "./Contact";
 
 function App() {
   const [hambMenuActive, setHambMenuActive] = useState("");
+  /* const [showMenu, setShowMenu] = useState("hidden"); */
 
   const handleMenuHamburguer = (ev) => {
     ev.preventDefault();
     console.log("esoty clickando");
     hambMenuActive === "" ? setHambMenuActive("active") : setHambMenuActive("");
+    /*  setShowMenu(""); */
   };
 
   return (

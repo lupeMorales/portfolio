@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/components/HamburgerMenu.scss";
 /* import { useState } from "react"; */
 const HamburguerMenu = (props) => {
@@ -19,7 +20,7 @@ const HamburguerMenu = (props) => {
           <span className={`navbar__line--1 `} id="1"></span>
           <span className={`navbar__line--2 `}></span>
           <span className={`navbar__line--3 `}></span>
-        </div>
+        </div>{" "}
       </a>
     </>
   );

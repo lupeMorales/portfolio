@@ -12,7 +12,7 @@
     $backgroundColor 50%,
     $backgroundColor 100%
   );
-  &__lupe {
+  &__dynamic-text {
     position: absolute;
     display: block;
     font-size: 1.2rem;
@@ -22,6 +22,10 @@
     z-index: 900;
     top: 2%;
     left: 6%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 12em;
+    animation: type 4s steps(30, end);
   }
   &__title {
     position: relative;
@@ -52,11 +56,16 @@
     color: $mainColor;
   }
 
-  &__static-txt {
+  &__subtitle {
     display: block;
     font-size: clamp(2rem, 4vw, 4rem);
     text-transform: uppercase;
     font-weight: 900;
     color: black;
+  }
+  @keyframes type {
+    from {
+      width: 0;
+    }
   }
 }

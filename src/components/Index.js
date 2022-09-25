@@ -4,9 +4,9 @@ import "../styles/layouts/Index.scss";
 import "../styles/components/NavContact.scss";
 import NavContact from "./NavContact";
 
-const Index = () => {
+const Index = (props) => {
   return (
-    <section className="index">
+    <section className={`index ${props.showMenu}`}>
       <div className="index__container">
         <ul className="index__items ">
           <li>
