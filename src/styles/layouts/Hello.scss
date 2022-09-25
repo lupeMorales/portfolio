@@ -19,13 +19,13 @@
     text-transform: uppercase;
     font-weight: 900;
     color: black;
-    z-index: 900;
     top: 2%;
-    left: 6%;
+    left: 4.5%;
     white-space: nowrap;
     overflow: hidden;
     width: 12em;
     animation: type 4s steps(30, end);
+    z-index: 0;
   }
   &__title {
     position: relative;

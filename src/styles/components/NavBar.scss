@@ -9,6 +9,9 @@
     $mainColor 75%,
     $mainColor 100%
   );
+
+  /*  animation: slide-in 0.4s linear 0.2s both; */
+
   @media all and (min-width: 768px) {
     background: linear-gradient(
       to right,
@@ -66,4 +69,15 @@
       text-decoration-thickness: 22px;
     }
   }
+  /*   @keyframes slide-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } */
+}
+.hidden {
+  display: none;
 }
