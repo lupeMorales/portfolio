@@ -1,6 +1,8 @@
 /* import { Link } from  */ "react-router-dom";
 import { Link } from "react-router-dom";
 import "../styles/layouts/Index.scss";
+import "../styles/components/NavContact.scss";
+import NavContact from "./NavContact";
 
 const Index = () => {
   return (
@@ -13,8 +15,7 @@ const Index = () => {
             </Link>
           </li>
           <li>
-            <Link to="/about" className="index__link">
-              {" "}
+            <Link to="/about" className="index__link ">
               sobre mi
             </Link>
           </li>
@@ -29,6 +30,7 @@ const Index = () => {
             </Link>
           </li>
         </ul>
+        <NavContact />
       </div>
     </section>
   );
