@@ -1,4 +1,3 @@
-/* import { Link } from  */ "react-router-dom";
 import { Link } from "react-router-dom";
 import "../styles/layouts/Index.scss";
 import "../styles/components/NavContact.scss";
