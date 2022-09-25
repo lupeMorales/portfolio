@@ -1,17 +1,31 @@
-import { Link } from "react-router-dom";
-import "../styles/layouts/Index.scss";
+import "../styles/components/NavBar.scss";
 import "../styles/components/NavContact.scss";
+import "../styles/components/HamburgerMenu.scss";
+import { Link } from "react-router-dom";
+import { useState } from "react";
 import NavContact from "./NavContact";
 import HamburguerMenu from "./HamburgerMenu";
-import { useState } from "react";
 
-const Header = () => {
-  const [showMenu, setShowMenu] = useState(true);
+function NavBar() {
+  const [hambMenuActive, setHambMenuActive] = useState("");
+  const [showIndex, setShowIndex] = useState("hidden");
 
+  const handleMenu = () => {
+    console.log("grande ella");
+    activeMenu();
+    showMenu();
+  };
+
+  const activeMenu = () => {
+    hambMenuActive === "" ? setHambMenuActive("active") : setHambMenuActive("");
+  };
+  const showMenu = () => {
+    showIndex === "" ? setShowIndex("hidden") : setShowIndex("");
+  };
   return (
-    <header>
-      <HamburguerMenu showMenu={showMenu} />
-      <section className={`index ${showMenu ? "" : "hidden"}`}>
+    <>
+      <HamburguerMenu hambMenuActive={hambMenuActive} handleMenu={handleMenu} />
+      <section className={`index ${showIndex}`}>
         <div className="index__container">
           <ul className="index__items ">
             <li>
@@ -38,7 +52,7 @@ const Header = () => {
           <NavContact />
         </div>
       </section>
-    </header>
+    </>
   );
-};
-export default Header;
+}
+export default NavBar;
