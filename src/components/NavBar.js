@@ -11,7 +11,7 @@ function NavBar() {
   const [showIndex, setShowIndex] = useState("hidden");
 
   const handleMenu = () => {
-  activeMenu();
+    activeMenu();
     showMenu();
   };
 
@@ -28,22 +28,22 @@ function NavBar() {
         <div className="index__container">
           <ul className="index__items ">
             <li>
-              <Link to="/" className="index__link">
+              <Link to="/" target="_parent" className="index__link">
                 home
               </Link>
             </li>
             <li>
-              <Link to="/about" className="index__link ">
+              <Link to="/about" target="_parent" className="index__link ">
                 sobre mi
               </Link>
             </li>
             <li>
-              <Link to="/projects" className="index__link">
+              <Link to="/projects" target="_parent" className="index__link">
                 proyectos
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="index__link">
+              <Link to="/contact" target="_parent" className="index__link">
                 contacto
               </Link>
             </li>
