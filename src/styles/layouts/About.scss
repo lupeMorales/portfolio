@@ -1,0 +1,51 @@
+@import "../core/variables.scss";
+.about {
+  width: 100%;
+  height: auto;
+  &__hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 0 40px;
+
+    line-height: 80px;
+    background: linear-gradient(
+      to bottom,
+      $backgroundColor 0%,
+      $backgroundColor 50%,
+      $mainColor 50%,
+      $mainColor 100%
+    );
+  }
+
+  &__title {
+    font-size: 7rem;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    width: 250px;
+    height: auto;
+    overflow-wrap: anywhere;
+    font-size: clamp(8.8rem, 20vw, 22rem);
+    font-weight: 900;
+  }
+  &__text--strong {
+    margin-top: 40px;
+    font-size: 2rem;
+    color: #f8f8f8;
+    font-weight: bold;
+    line-height: normal;
+  }
+  &__bio {
+    padding: 20% 15%;
+  }
+}
+.line {
+  display: inline-block;
+  width: 100px;
+  height: 12px;
+  margin-bottom: 10px;
+  background-color: $mainColor;
+  border-color: black;
+}

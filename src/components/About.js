@@ -5,23 +5,19 @@ const About = () => {
       <section className="about">
         <section className="about__hero">
           <div className="line"></div>
-          <h2 className="about__title section__title">
-            sobre m<span>i</span>
-          </h2>
+          <h2 className="about__title section__title"> mi bio</h2>
           <p className="about__text--strong">
-            {" "}
-            soy inquieta, perfecionista y curiosa...
+            <em>"Que es la vida sino continuo aprendizaje".</em>
           </p>
         </section>
         <section className="about__bio">
           <p className="about__text">
-            y esa curiosidad me lle a preguntarme siempre ¿¿qué hay detrás??
-            ¿¿cómo se hace?? ¿¿podría hacerlo yo? Eso me llevo casi sin quererlo
+            mi curiosidad innata me hace preguntarme siempre ¿qué hay detrás?
+            ¿cómo se hace? ¿podría hacerlo yo? Y eso me llevó casi sin quererlo
             al mundo de la programación aunque nunca imaginé que pudiese
-            atraparme como lo hizo tanto que tras años dedicada al sector del
-            turismo he decidido dat un giro profesional a mi carrera lanzándome
+            atraparme como lo hizo, tanto, que tras años dedicada al sector del
+            turismo he decidido dar un giro profesional a mi carrera lanzándome
             con ilusión y determinación a esta aventura.
-            <span>Al fin y al cabo que es la vida sino cambio continuo</span>
           </p>
           {/*   <img src={} alt="" className="about__image"></img> */}
         </section>
