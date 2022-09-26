@@ -9,7 +9,6 @@
     width: 100%;
     height: 100vh;
     padding: 0 40px;
-
     line-height: 80px;
     background: linear-gradient(
       to bottom,
@@ -30,6 +29,11 @@
     font-size: clamp(8.8rem, 20vw, 22rem);
     font-weight: 900;
   }
+  &__text {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 15%;
+  }
   &__text--strong {
     margin-top: 40px;
     font-size: 2rem;
@@ -38,9 +42,32 @@
     line-height: normal;
   }
   &__bio {
-    padding: 20% 15%;
+    padding: 15% 0;
+  }
+  &__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: grayscale(100%);
   }
 }
+.skills {
+  padding: 15%;
+
+  &__title {
+    font-size: 2.5rem;
+    color: $mainColor;
+    margin-bottom: 25px;
+  }
+  &__line {
+    text-decoration: overline;
+    text-decoration-color: rgba(255, 87, 81, 0.6);
+    text-decoration-thickness: 10px;
+    margin-bottom: 25px;
+    word-spacing: 10px;
+  }
+}
+
 .line {
   display: inline-block;
   width: 100px;

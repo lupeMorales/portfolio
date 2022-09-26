@@ -1,4 +1,5 @@
 import "../styles/layouts/About.scss";
+import imgProfile from "../images/lupe.jpg";
 const About = () => {
   return (
     <>
@@ -19,41 +20,20 @@ const About = () => {
             turismo he decidido dar un giro profesional a mi carrera lanzándome
             con ilusión y determinación a esta aventura.
           </p>
-          {/*   <img src={} alt="" className="about__image"></img> */}
+          <img
+            src={imgProfile}
+            alt="Lupe Morales "
+            className="about__image"
+          ></img>
         </section>
-        <section className="about__skills">
+        <section className="skills">
           <h3 className="skills__title">Skills</h3>
-          <p className="skills__line">
-            <span className="skills__tag">HTML5</span>
-            <span className="skills__tag">CSS3</span>
-            <span className="skills__tag">Sass</span>
-            <span className="skills__tag">Flexbox</span>
-            <span className="skills__tag">Grid</span>
-            <span className="skills__tag">Animaciones</span>
-          </p>
-          <p className="skills__line">
-            <span className="skills__tag">JavaScript</span>
-            <span className="skills__tag">Java</span>
-            <span className="skills__tag">React</span>
-            <span className="skills__tag">APIs</span>
-          </p>
-          <p className="skills__line">
-            <span className="skills__tag">Node-JS</span>
-            <span className="skills__tag">Express</span>
-            <span className="skills__tag">SQL (SQLite)</span>
-          </p>
-          <p className="skills__line">
-            <span className="skills__tag">Git (GitHub)</span>
-          </p>
-          <p className="skills__line">
-            <span className="skills__tag">VS Code</span>
-            <span className="skills__tag">Gulp</span>
-            <span className="skills__tag">NPM</span>
-          </p>
-          <p className="skills__line">
-            <span className="skills__tag">Agile</span>
-            <span className="skills__tag">Scrum</span>
-          </p>
+          <p className="skills__line">HTML5 CSS3 Sass Flexbox Animaciones</p>
+          <p className="skills__line">JavaScript Java React APIs</p>
+          <p className="skills__line">Node-JS Express SQL</p>
+          <p className="skills__line">Git GitHub</p>
+          <p className="skills__line">VS Code Gulp NPM</p>
+          <p className="skills__line">Agile Scrum</p>
         </section>
       </section>
     </>
