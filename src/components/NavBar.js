@@ -11,8 +11,7 @@ function NavBar() {
   const [showIndex, setShowIndex] = useState("hidden");
 
   const handleMenu = () => {
-    console.log("grande ella");
-    activeMenu();
+  activeMenu();
     showMenu();
   };
 
