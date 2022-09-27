@@ -4,11 +4,11 @@ const About = () => {
   return (
     <>
       <section className="about">
-        <section className="about__hero">
-          <div className="line"></div>
-          <h2 className="about__title section__title"> mi bio</h2>
-          <p className="about__text--strong">
-            <em>"Que es la vida sino continuo aprendizaje".</em>
+        <section className="section__hero">
+          <div className="section__line"></div>
+          <h2 className="section__title "> mi bio</h2>
+          <p className="section__text--strong">
+            <em>"Qué es la vida sino continuo aprendizaje".</em>
           </p>
         </section>
         <section className="about__bio">

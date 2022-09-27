@@ -1,4 +1,20 @@
+import "../styles/layouts/Projects.scss";
+
 const Projects = () => {
-  return;
+  return (
+    <section className="projects">
+      <section className="section__hero">
+        <div className="title-container">
+          <div className="section__line"></div>
+          <h2 className="section__title">projects</h2>
+        </div>
+
+        <p className="section__text--strong">
+          Algunos de los proyectos que he realizados.
+        </p>
+      </section>
+      <section className="projects__container"></section>
+    </section>
+  );
 };
 export default Projects;
