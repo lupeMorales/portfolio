@@ -1,0 +1,4 @@
+.projects__list {
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(15rem, 1fr));
+}

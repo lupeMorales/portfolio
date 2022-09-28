@@ -1,9 +1,9 @@
 [
-    {"img": "viewBatata.png",
-    "title":"BataBite",
-    "description":"Langing page | HTML CSS",
-    "code":"https://github.com/lupeMorales/Bata-bite-mobil-first",
-    "demo":"https://lupemorales.github.io/Bata-bite-mobil-first/"
+    {"img": "anime.png",
+    "title":"Anime",
+    "description":"Buscador de series || JavaScript",
+    "code":"https://github.com/lupeMorales/anime",
+    "demo":"https://lupemorales.github.io/anime/"
     },
     {"img": "catchThePenguin.png",
     "title":"Catch the Penguin",
@@ -11,27 +11,22 @@
     "code":"https://github.com/lupeMorales/catch-the-penguin",
     "demo":"https://lupemorales.github.io/catch-the-penguin/"
     },
-    {"img": "HPdesktop_view.png",
+    {"img": "harryPotter.png",
     "title":"Harry Potter character finder",
     "description":"Buscador web con React",
     "code":"https://github.com/lupeMorales/Harry-Potter-character-finder",
     "demo":"https://lupemorales.github.io/Harry-Potter-character-finder/"
     },
-    {"img": "HPdesktop_view.png",
-    "title":"Harry Potter character finder",
-    "description":"Buscador web con React",
-    "code":"https://github.com/lupeMorales/Harry-Potter-character-finder",
-    "demo":"https://lupemorales.github.io/Harry-Potter-character-finder/"
-    },
-    {"img": "HPdesktop_view.png",
+    
+    {"img": "awesomeProfile",
     "title":"Profile Cards Generator",
     "description":"Proyecto colaborativo || Refactorizar código heredado con React y crear servidor con ExpressJS",
     "code":"https://github.com/lupeMorales/project-promo-q-module-4-team-2",
     "demo":"https://las-faraonas-awesome-card.herokuapp.com/"
     },
-    {"img": "HPdesktop_view.png",
-    "title":"Profile Cards Generator",
-    "description":"Proyecto colaborativo || Refactorizar código heredado con React y crear servidor con ExpressJS",
+    {"img": "piedraPapelTijera",
+    "title":"Piedra-Papel-Tijera",
+    "description":"Aplicación de escritorio con JAVA",
     "code":"https://github.com/lupeMorales/GUI-Java-piedra-papel-tijera",
     "demo":"https://drive.google.com/file/d/1osCdQkbp9DmsBf9LtnCxpy6sW-r09_0G/view?usp=sharing"
     }

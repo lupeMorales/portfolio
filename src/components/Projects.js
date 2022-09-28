@@ -19,7 +19,7 @@ const Projects = (props) => {
         </p>
       </section>
       <section className="projects__container">
-        <ul className="projects__item">{renderProjects}</ul>
+        <ul className="projects__list">{renderProjects}</ul>
       </section>
     </section>
   );
