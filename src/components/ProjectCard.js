@@ -1,10 +1,11 @@
 const ProjectCard = (props) => {
+  const image = require(`../images/${props.projects.img}`);
   return (
     <li className="projectCard">
       <figure className="projectCard__img">
-        <img src={props.projects.img} alt="" />
+        <img src={image} alt="" />
       </figure>
-      <div className="projectCard__hover">
+      <div className="projectCard__hover hidden">
         <p>{props.projects.title}</p>
         <p>{props.projects.description}</p>
         <a href={props.projects.code} target="_blank" rel="noopener noreferrer">
