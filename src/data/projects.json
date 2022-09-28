@@ -18,13 +18,13 @@
     "demo":"https://lupemorales.github.io/Harry-Potter-character-finder/"
     },
     
-    {"img": "awesomeProfile",
+    {"img": "awesomeProfile.png",
     "title":"Profile Cards Generator",
     "description":"Proyecto colaborativo || Refactorizar código heredado con React y crear servidor con ExpressJS",
     "code":"https://github.com/lupeMorales/project-promo-q-module-4-team-2",
     "demo":"https://las-faraonas-awesome-card.herokuapp.com/"
     },
-    {"img": "piedraPapelTijera",
+    {"img": "piedraPapelTijera.png",
     "title":"Piedra-Papel-Tijera",
     "description":"Aplicación de escritorio con JAVA",
     "code":"https://github.com/lupeMorales/GUI-Java-piedra-papel-tijera",

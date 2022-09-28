@@ -11,12 +11,12 @@ const ProjectCard = (props) => {
         <p>{props.projects.description}</p>
         <a href={props.projects.code} target="_blank" rel="noopener noreferrer">
           <span>
-            <i class="fa-solid fa-code"></i>
+            <i className="fa-solid fa-code"></i>
           </span>
         </a>
         <a href={props.projects.demo} target="_blank" rel="noopener noreferrer">
           <span>
-            <i class="fa-sharp fa-solid fa-eye"></i>
+            <i className="fa-sharp fa-solid fa-eye"></i>
           </span>
         </a>
       </div>
