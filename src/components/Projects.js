@@ -11,7 +11,7 @@ const Projects = (props) => {
       <section className="section__hero">
         <div className="title-container">
           <div className="section__line"></div>
-          <h2 className="section__title">projects</h2>
+          <h2 className="section__title title">proyectos</h2>
         </div>
 
         <p className="section__text--strong">
