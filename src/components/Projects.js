@@ -1,6 +1,11 @@
 import "../styles/layouts/Projects.scss";
+import ProjectCard from "./ProjectCard";
 
-const Projects = () => {
+const Projects = (props) => {
+  const renderProjects = props.projects.map((item, index) => {
+    return <ProjectCard key={index} projects={item} />;
+  });
+
   return (
     <section className="projects">
       <section className="section__hero">
@@ -13,7 +18,9 @@ const Projects = () => {
           Algunos de los proyectos que he realizados.
         </p>
       </section>
-      <section className="projects__container"></section>
+      <section className="projects__container">
+        <ul className="projects__item">{renderProjects}</ul>
+      </section>
     </section>
   );
 };

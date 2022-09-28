@@ -1,6 +1,7 @@
 import "../styles/App.scss";
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
+import dataProjects from "../data/projects.json";
 //components
 
 import Hello from "./Hello";
@@ -11,6 +12,7 @@ import Contact from "./Contact";
 import NavBar from "./NavBar";
 
 function App() {
+  const [projects, setProjects] = useState(dataProjects);
   return (
     <div className="App">
       <header>
@@ -22,7 +24,7 @@ function App() {
           <Route path="/" element={<Hello />} />
           {/*  <Route path="/index" element={<Index />} /> */}
           <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects" element={<Projects projects={projects} />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
