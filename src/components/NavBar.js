@@ -19,7 +19,7 @@ function NavBar() {
     hambMenuActive === "" ? setHambMenuActive("active") : setHambMenuActive("");
   };
   const showMenu = () => {
-    showIndex === "" ? setShowIndex("hidden") : setShowIndex("");
+    showIndex === "" ? setShowIndex(" slide-out hidden") : setShowIndex("");
   };
   return (
     <header>
@@ -27,17 +27,17 @@ function NavBar() {
       <section className={`index ${showIndex}`}>
         <div className="index__container">
           <ul className="index__items ">
-            <li>
+            <li onClick={showMenu}>
               <Link to="/" target="_parent" className="index__link">
                 home
               </Link>
             </li>
-            <li>
+            <li onClick={showMenu}>
               <Link to="/about" target="_parent" className="index__link ">
                 sobre mi
               </Link>
             </li>
-            <li>
+            <li onClick={showMenu}>
               <Link to="/projects" target="_parent" className="index__link">
                 proyectos
               </Link>

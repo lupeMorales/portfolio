@@ -7,7 +7,7 @@ $backgroundColor: #f8f8f8;
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  padding: 0 40px;
+  padding: 0 10%;
   line-height: 80px;
   background: linear-gradient(
     to bottom,
@@ -23,8 +23,20 @@ $backgroundColor: #f8f8f8;
   width: 250px;
   height: auto;
   overflow-wrap: anywhere;
-  font-size: clamp(8.8rem, 20vw, 22rem);
+  font-size: clamp(7.8rem, 18vw, 22rem);
   font-weight: 900;
+  @media all and (min-width: 768px) {
+    width: 300px;
+    line-height: 120px;
+  }
+  @media all and (min-width: 1024px) {
+    width: 500px;
+    line-height: 170px;
+  }
+  @media all and (min-width: 1440px) {
+    width: 700px;
+    line-height: 180px;
+  }
 }
 .section__text--strong {
   margin-top: 40px;
@@ -37,8 +49,17 @@ $backgroundColor: #f8f8f8;
 .section__line {
   display: inline-block;
   width: 100px;
-  height: 12px;
+  height: 4%;
   margin-bottom: 10px;
   background-color: $mainColor;
   border-color: black;
+  @media all and (min-width: 768px) {
+    width: 150px;
+  }
+  @media all and (min-width: 1024px) {
+    width: 200px;
+  }
+  @media all and (min-width: 1440px) {
+    width: 250px;
+  }
 }

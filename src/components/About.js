@@ -1,9 +1,9 @@
 import "../styles/layouts/About.scss";
 import imgProfile from "../images/lupe.jpg";
-const About = () => {
+const About = (props) => {
   return (
     <>
-      <section className="about">
+      <section className={`about ${props.menuHidden}`}>
         <section className="section__hero">
           <div className="section__line"></div>
           <h2 className="section__title "> mi bio</h2>

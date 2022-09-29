@@ -8,7 +8,7 @@ const Projects = (props) => {
 
   return (
     <section className="projects">
-      <section className="section__hero">
+      <section className="section__hero projects__destktop">
         <div className="title-container">
           <div className="section__line"></div>
           <h2 className="section__title title">proyectos</h2>
