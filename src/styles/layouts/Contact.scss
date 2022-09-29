@@ -18,6 +18,9 @@
       $mainColor 70%,
       $mainColor 100%
     );
+    @media all and (min-width: 1024px) {
+      padding-top: 40px;
+    }
   }
   &__title {
     text-transform: uppercase;
@@ -25,7 +28,7 @@
     width: 160px;
     height: auto;
     overflow-wrap: anywhere;
-    font-size: clamp(7.8rem, 20vw, 22rem);
+    font-size: clamp(7.8rem, 15vw, 22rem);
     font-weight: 900;
     /*     padding-left: 5%; */
     @media all and (min-width: 768px) {
@@ -33,7 +36,7 @@
       line-height: 120px;
     }
     @media all and (min-width: 1024px) {
-      width: 700px;
+      width: 500px;
       line-height: 170px;
     }
     @media all and (min-width: 1440px) {
@@ -42,7 +45,6 @@
     }
   }
   &__text {
-    margin-top: 15%;
     font-size: clamp(1.6rem, 1.2vw, 2.4rem);
     color: #f8f8f8;
     font-weight: bold;

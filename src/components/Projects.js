@@ -14,9 +14,9 @@ const Projects = (props) => {
           <h2 className="section__title title">proyectos</h2>
         </div>
 
-        <p className="section__text--strong">
+        {/*  <p className="section__text--strong">
           Algunos de los proyectos que he realizados.
-        </p>
+        </p> */}
       </section>
       <section className="projects__container">
         <ul className="projects__list">{renderProjects}</ul>
