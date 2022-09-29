@@ -22,7 +22,7 @@ function NavBar() {
     showIndex === "" ? setShowIndex("hidden") : setShowIndex("");
   };
   return (
-    <>
+    <header>
       <HamburguerMenu hambMenuActive={hambMenuActive} handleMenu={handleMenu} />
       <section className={`index ${showIndex}`}>
         <div className="index__container">
@@ -51,7 +51,7 @@ function NavBar() {
           <NavContact />
         </div>
       </section>
-    </>
+    </header>
   );
 }
 export default NavBar;

@@ -5,14 +5,14 @@
   background: linear-gradient(
     to right,
     $backgroundColor 0%,
-    $backgroundColor 75%,
-    $mainColor 75%,
+    $backgroundColor 15%,
+    $mainColor 15%,
     $mainColor 100%
   );
 
-  /*  animation: slide-in 0.4s linear 0.2s both; */
+  animation: slide-in 0.8s linear 0.2s both;
 
-  @media all and (min-width: 768px) {
+  /*   @media all and (min-width: 768px) {
     background: linear-gradient(
       to right,
       $backgroundColor 0%,
@@ -38,7 +38,7 @@
       $mainColor 65%,
       $mainColor 100%
     );
-  }
+  } */
   &__container {
     display: flex;
     justify-content: center;
@@ -69,14 +69,14 @@
       text-decoration-thickness: 22px;
     }
   }
-  /*   @keyframes slide-in {
+  @keyframes slide-in {
     from {
-      transform: translateX(100%);
+      transform: translateX(-100%);
     }
     to {
       transform: translateX(0);
     }
-  } */
+  }
 }
 .hidden {
   display: none;

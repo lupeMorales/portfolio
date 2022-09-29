@@ -1,25 +1,22 @@
 import "../styles/App.scss";
-import { useState } from "react";
+/* import { useState } from "react"; */
 import { Routes, Route } from "react-router-dom";
 import dataProjects from "../data/projects.json";
 //components
 
 import Hello from "./Hello";
-
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import NavBar from "./NavBar";
 
 function App() {
-  const [projects, setProjects] = useState(dataProjects);
+  /*   const [projects, setProjects] = useState(dataProjects); */
+  const projects = dataProjects;
   return (
     <div className="App">
-      <header>
-        <NavBar />
-      </header>
-      <main>
-        {" "}
+      <NavBar />
+      <main className="main">
         <Routes>
           <Route path="/" element={<Hello />} />
           {/*  <Route path="/index" element={<Index />} /> */}
