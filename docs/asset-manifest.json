@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.48966b45.css",
+    "main.js": "./static/js/main.5474b43b.js",
+    "static/media/CV-LupeMorales-FrontendDeveloper.pdf": "./static/media/CV-LupeMorales-FrontendDeveloper.5e13feb0a8bec772a9a4.pdf",
+    "static/media/harryPotter.png": "./static/media/harryPotter.5a7f84dfe6657b2812de.png",
+    "static/media/lupe.jpg": "./static/media/lupe.0e5582629519812384a7.jpg",
+    "static/media/catchThePenguin.png": "./static/media/catchThePenguin.e121f340277137ee9d02.png",
+    "static/media/anime.png": "./static/media/anime.dd6c7b087766bf4cb057.png",
+    "static/media/piedraPapelTijera.png": "./static/media/piedraPapelTijera.ac2f4c212f94ec8259c0.png",
+    "static/media/awesomeProfile.png": "./static/media/awesomeProfile.1108f910cc328fe3370f.png",
+    "index.html": "./index.html",
+    "main.48966b45.css.map": "./static/css/main.48966b45.css.map",
+    "main.5474b43b.js.map": "./static/js/main.5474b43b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48966b45.css",
+    "static/js/main.5474b43b.js"
+  ]
+}
