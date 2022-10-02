@@ -1,8 +1,6 @@
 @import "../core/variables.scss";
 .index {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: fixed;
   width: 100%;
   height: 100vh;
   background: linear-gradient(
@@ -82,10 +80,7 @@
     }
   }
 }
-.hidden {
-  display: none;
-}
-/* .slide-out {
+.slide-out {
   animation: slide-out 0.8s linear 0.2s both;
 }
 
@@ -96,4 +91,7 @@
   to {
     transform: translateX(-100%);
   }
-} */
+}
+.hidden {
+  display: none;
+}

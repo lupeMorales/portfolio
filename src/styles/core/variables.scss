@@ -1,6 +1,9 @@
 $primaryFont: "Lato", sans-serif;
 $mainColor: #ff5851;
 $backgroundColor: #f8f8f8;
+body {
+  background-color: #ff5851;
+}
 .section__hero {
   display: flex;
   justify-content: center;

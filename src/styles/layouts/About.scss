@@ -2,6 +2,16 @@
 .about {
   width: 100%;
   height: auto;
+  animation: slide-in 0.8s linear 0.2s both;
+  background-color: $backgroundColor;
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
 
   &__text {
     font-size: clamp(1.2rem, 2.8vw, 2.5rem);

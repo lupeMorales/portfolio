@@ -7,7 +7,38 @@ import NavContact from "./NavContact";
 import HamburguerMenu from "./HamburgerMenu";
 
 function NavBar() {
-  const [hambMenuActive, setHambMenuActive] = useState("");
+  return (
+    <section className="index ">
+      <div className="index__container">
+        <ul className="index__items ">
+          <li>
+            <Link to="/" target="_parent" className="index__link">
+              home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" target="_parent" className="index__link ">
+              sobre mi
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects" target="_parent" className="index__link">
+              proyectos
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" target="_parent" className="index__link">
+              contacto
+            </Link>
+          </li>
+        </ul>
+        <NavContact />
+      </div>
+    </section>
+  );
+}
+
+/*  const [hambMenuActive, setHambMenuActive] = useState("");
   const [showIndex, setShowIndex] = useState("hidden");
 
   const handleMenu = () => {
@@ -53,5 +84,5 @@ function NavBar() {
       </section>
     </header>
   );
-}
+} */
 export default NavBar;
