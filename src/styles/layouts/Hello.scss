@@ -37,6 +37,7 @@
     animation: type 4s steps(30, end);
     z-index: 0;
   }
+
   &__title {
     position: relative;
     display: blok;
@@ -65,7 +66,6 @@
   &__exclamation {
     color: $mainColor;
   }
-
   &__subtitle {
     display: block;
     font-size: clamp(2rem, 4vw, 4rem);

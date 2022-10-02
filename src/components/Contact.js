@@ -9,7 +9,11 @@ const Contact = () => {
         <h2 className="contact__title  ">contacto</h2>
         <div className="contact__container">
           {" "}
-          <a className="contact__text" href="mailto:morales.lupe@gmail.com">
+          <a
+            className="contact__text"
+            href="mailto:morales.lupe@gmail.com"
+            title="email"
+          >
             <em>morales.lupe@gmail.com</em> <NavContact />
           </a>
         </div>

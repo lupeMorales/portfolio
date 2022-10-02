@@ -7,7 +7,6 @@ const Hello = (props) => {
         <h1 className="hello__title">
           hola<span className="hello__exclamation">!</span>
         </h1>
-
         <h2 className="hello__subtitle">soy Lupe Morales</h2>
       </div>
     </section>

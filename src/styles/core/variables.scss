@@ -1,6 +1,7 @@
 $primaryFont: "Lato", sans-serif;
 $mainColor: #ff5851;
 $backgroundColor: #f8f8f8;
+
 body {
   background-color: #ff5851;
 }
@@ -65,4 +66,9 @@ body {
   @media all and (min-width: 1440px) {
     width: 250px;
   }
+}
+.line-break {
+  display: block;
+  font-size: 0;
+  margin-top: 10px;
 }

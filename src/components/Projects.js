@@ -14,9 +14,21 @@ const Projects = (props) => {
           <h2 className="section__title title">proyectos</h2>
         </div>
 
-        {/*  <p className="section__text--strong">
+        <p className="section__text--strong">
           Algunos de los proyectos que he realizados.
-        </p> */}
+          <span className="line-break"></span> Si quieres ver más visita mi
+          repositorio en
+          <a
+            className="projects__link"
+            href="https://github.com/lupeMorales"
+            rel="noreferrer"
+            target="_blank"
+            title="github"
+          >
+            {" "}
+            GitHub
+          </a>
+        </p>
       </section>
       <section className="projects__container">
         <ul className="projects__list">{renderProjects}</ul>

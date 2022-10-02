@@ -6,8 +6,7 @@ const NavContact = () => {
         href="https://github.com/lupeMorales"
         rel="noreferrer"
         target="_blank"
-        title="github
-      "
+        title="github"
       >
         <i className="fa-brands fa-github-alt icon"></i>
       </a>
@@ -24,6 +23,7 @@ const NavContact = () => {
         target="_blank"
         rel="noopener noreferrer"
         download="CV-LupeMorales-FrontendDeveloper.pdf"
+        title="descargar CV"
       >
         <span className="icon">CV</span>
       </a>

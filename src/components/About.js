@@ -14,11 +14,12 @@ const About = () => {
         <section className="about__bio">
           <p className="about__text">
             Mi curiosidad innata me hace preguntarme siempre ¿qué hay detrás?
-            ¿cómo se hace? ¿podría hacerlo yo?<span></span> Eso me llevó casi
-            sin quererlo al mundo de la programación aunque nunca imaginé que
-            pudiese atraparme como lo hizo, tanto, que tras años dedicada al
-            sector del turismo he decidido dar un giro profesional a mi carrera
-            lanzándome con ilusión y determinación a esta aventura.
+            ¿cómo se hace? ¿podría hacerlo yo?
+            <span className="line-break"></span> Eso me llevó casi sin quererlo
+            al mundo de la programación aunque nunca imaginé que pudiese
+            atraparme como lo hizo, tanto, que tras años dedicada al sector del
+            turismo he decidido dar un giro profesional a mi carrera lanzándome
+            con ilusión y determinación a esta aventura.
           </p>
           <img
             src={imgProfile}

@@ -22,4 +22,7 @@
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     list-style: none;
   }
+  &__link {
+    color: #f8f8f8;
+  }
 }

@@ -1,6 +1,5 @@
 import "../styles/components/HamburgerMenu.scss";
 import { useState } from "react";
-
 import NavBar from "./NavBar";
 
 const HamburguerMenu = () => {
@@ -15,7 +14,6 @@ const HamburguerMenu = () => {
 
   return (
     <>
-      {" "}
       <a className="navbar" href="menu">
         <div className={`navbar__icon ${hambMenuActive}`} onClick={handleMenu}>
           <span className={`navbar__line--1 `} id="1"></span>
