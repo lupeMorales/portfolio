@@ -64,11 +64,9 @@
   }
   &__link {
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.409);
     &:hover {
-      text-decoration: line-through;
-      text-decoration-color: rgba(255, 255, 255, 0.6);
-      text-decoration-thickness: 22px;
+      color: black;
     }
   }
   @keyframes slide-in {
@@ -79,19 +77,4 @@
       transform: translateX(0);
     }
   }
-}
-.slide-out {
-  animation: slide-out 0.8s linear 0.2s both;
-}
-
-@keyframes slide-out {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-.hidden {
-  display: none;
 }

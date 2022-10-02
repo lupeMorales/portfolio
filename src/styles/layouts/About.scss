@@ -2,11 +2,11 @@
 .about {
   width: 100%;
   height: auto;
-  animation: slide-in 0.8s linear 0.2s both;
   background-color: $backgroundColor;
-  @keyframes slide-in {
+  animation: slide-right 0.8s linear 0.2s both;
+  @keyframes slide-right {
     from {
-      transform: translateX(-100%);
+      transform: translateX(100%);
     }
     to {
       transform: translateX(0%);

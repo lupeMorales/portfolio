@@ -3,8 +3,8 @@
   width: 100%;
   height: auto;
   background-color: $backgroundColor;
-  animation: slide-in 0.8s linear 0.2s both;
-  @keyframes slide-in {
+  animation: slide-right 0.8s linear 0.2s both;
+  @keyframes slide-right {
     from {
       transform: translateX(100%);
     }
