@@ -1,6 +1,7 @@
 import "../styles/App.scss";
 import { Routes, Route } from "react-router-dom";
 import dataProjects from "../data/projects.json";
+
 //components
 import Hello from "./Hello";
 import About from "./About";
