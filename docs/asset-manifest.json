@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.85e518af.css",
+    "main.css": "./static/css/main.d4783e20.css",
     "main.js": "./static/js/main.0432a900.js",
     "static/media/CVLupeMorales-Frontend.pdf": "./static/media/CVLupeMorales-Frontend.6ed55193dbe90ba768cd.pdf",
     "static/media/harryPotter.png": "./static/media/harryPotter.5a7f84dfe6657b2812de.png",
@@ -10,11 +10,11 @@
     "static/media/piedraPapelTijera.png": "./static/media/piedraPapelTijera.ac2f4c212f94ec8259c0.png",
     "static/media/awesomeProfile.png": "./static/media/awesomeProfile.1108f910cc328fe3370f.png",
     "index.html": "./index.html",
-    "main.85e518af.css.map": "./static/css/main.85e518af.css.map",
+    "main.d4783e20.css.map": "./static/css/main.d4783e20.css.map",
     "main.0432a900.js.map": "./static/js/main.0432a900.js.map"
   },
   "entrypoints": [
-    "static/css/main.85e518af.css",
+    "static/css/main.d4783e20.css",
     "static/js/main.0432a900.js"
   ]
 }
