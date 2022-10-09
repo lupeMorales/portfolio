@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.e8cf2f35.css",
-    "main.js": "./static/js/main.9f879bc7.js",
-    "static/media/CV-LupeMorales-FrontendDeveloper.pdf": "./static/media/CV-LupeMorales-FrontendDeveloper.5e13feb0a8bec772a9a4.pdf",
+    "main.css": "./static/css/main.85e518af.css",
+    "main.js": "./static/js/main.a5e7f7d8.js",
+    "static/media/CVLupeMorales-Frontend.pdf": "./static/media/CVLupeMorales-Frontend.6ed55193dbe90ba768cd.pdf",
     "static/media/harryPotter.png": "./static/media/harryPotter.5a7f84dfe6657b2812de.png",
     "static/media/lupe.jpg": "./static/media/lupe.0e5582629519812384a7.jpg",
     "static/media/catchThePenguin.png": "./static/media/catchThePenguin.e121f340277137ee9d02.png",
@@ -10,11 +10,11 @@
     "static/media/piedraPapelTijera.png": "./static/media/piedraPapelTijera.ac2f4c212f94ec8259c0.png",
     "static/media/awesomeProfile.png": "./static/media/awesomeProfile.1108f910cc328fe3370f.png",
     "index.html": "./index.html",
-    "main.e8cf2f35.css.map": "./static/css/main.e8cf2f35.css.map",
-    "main.9f879bc7.js.map": "./static/js/main.9f879bc7.js.map"
+    "main.85e518af.css.map": "./static/css/main.85e518af.css.map",
+    "main.a5e7f7d8.js.map": "./static/js/main.a5e7f7d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8cf2f35.css",
-    "static/js/main.9f879bc7.js"
+    "static/css/main.85e518af.css",
+    "static/js/main.a5e7f7d8.js"
   ]
 }
