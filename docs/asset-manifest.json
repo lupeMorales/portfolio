@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.e8cf2f35.css",
-    "main.js": "./static/js/main.a54a390e.js",
+    "main.js": "./static/js/main.048fa41a.js",
     "static/media/CV-LupeMorales-FrontendDeveloper.pdf": "./static/media/CV-LupeMorales-FrontendDeveloper.5e13feb0a8bec772a9a4.pdf",
     "static/media/harryPotter.png": "./static/media/harryPotter.5a7f84dfe6657b2812de.png",
     "static/media/lupe.jpg": "./static/media/lupe.0e5582629519812384a7.jpg",
@@ -11,10 +11,10 @@
     "static/media/awesomeProfile.png": "./static/media/awesomeProfile.1108f910cc328fe3370f.png",
     "index.html": "./index.html",
     "main.e8cf2f35.css.map": "./static/css/main.e8cf2f35.css.map",
-    "main.a54a390e.js.map": "./static/js/main.a54a390e.js.map"
+    "main.048fa41a.js.map": "./static/js/main.048fa41a.js.map"
   },
   "entrypoints": [
     "static/css/main.e8cf2f35.css",
-    "static/js/main.a54a390e.js"
+    "static/js/main.048fa41a.js"
   ]
 }
