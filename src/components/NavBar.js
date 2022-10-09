@@ -6,7 +6,7 @@ import NavContact from "./NavContact";
 
 function NavBar() {
   return (
-    <section className="index ">
+    <section className="index animate__animated animate__fadeInLeft">
       <div className="index__container">
         <ul className="index__items ">
           <li>

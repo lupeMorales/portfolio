@@ -1,4 +1,4 @@
-import pdf from "../assets/CV-LupeMorales-FrontendDeveloper.pdf";
+import pdf from "../assets/CVLupeMorales-Frontend.pdf";
 const NavContact = () => {
   return (
     <nav className="social-links">
@@ -22,7 +22,7 @@ const NavContact = () => {
         href={pdf}
         target="_blank"
         rel="noopener noreferrer"
-        download="CV-LupeMorales-FrontendDeveloper.pdf"
+        download="CVLupeMorales-Frontend.pdf"
         title="descargar CV"
       >
         <span className="icon">CV</span>

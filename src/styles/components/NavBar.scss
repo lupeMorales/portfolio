@@ -12,7 +12,7 @@
   );
   z-index: 900;
 
-  animation: slide-in 0.8s linear 0.2s both;
+  /*   animation: slide-in 0.8s linear 0.2s both; */
 
   /*   @media all and (min-width: 768px) {
     background: linear-gradient(
@@ -69,14 +69,14 @@
       color: black;
     }
   }
-  @keyframes slide-in {
+  /*   @keyframes slide-in {
     from {
       transform: translateX(-100%);
     }
     to {
       transform: translateX(0);
     }
-  }
+  } */
 }
 .hidden {
   display: none;

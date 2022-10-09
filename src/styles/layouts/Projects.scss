@@ -3,7 +3,7 @@
   width: 100%;
   height: auto;
   background-color: $backgroundColor;
-  animation: slide-right 0.8s linear 0.2s both;
+  /*   animation: slide-right 0.8s linear 0.2s both;
   @keyframes slide-right {
     from {
       transform: translateX(100%);
@@ -11,7 +11,7 @@
     to {
       transform: translateX(0%);
     }
-  }
+  } */
 
   &__container {
     width: 100%;

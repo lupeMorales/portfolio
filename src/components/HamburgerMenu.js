@@ -7,7 +7,6 @@ const HamburguerMenu = () => {
   const [hambMenuActive, setHambMenuActive] = useState("");
   const handleMenu = (ev) => {
     ev.preventDefault();
-    console.log("esoty clickando");
     setToggle(!toggle);
     hambMenuActive === "" ? setHambMenuActive("active") : setHambMenuActive("");
   };

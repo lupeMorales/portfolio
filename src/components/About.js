@@ -3,7 +3,7 @@ import imgProfile from "../images/lupe.jpg";
 const About = () => {
   return (
     <>
-      <section className={`about `}>
+      <section className="about animate__animated animate__fadeInRight">
         <section className="section__hero">
           <div className="section__line"></div>
           <h2 className="section__title "> mi bio</h2>

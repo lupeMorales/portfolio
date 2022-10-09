@@ -1,7 +1,9 @@
 import "../styles/layouts/Hello.scss";
 const Hello = (props) => {
   return (
-    <section className={`hello ${props.menuHidden}`}>
+    <section
+      className={`hello ${props.menuHidden} animate__animated animate__slideInLeft `}
+    >
       <p className="hello__dynamic-text">front-end developer</p>
       <div className="hello__txt-container">
         <h1 className="hello__title">

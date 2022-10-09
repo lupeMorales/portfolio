@@ -7,7 +7,7 @@ const Projects = (props) => {
   });
 
   return (
-    <section className="projects">
+    <section className="projects animate__animated animate__fadeInRight">
       <section className="section__hero projects__destktop">
         <div className="title-container">
           <div className="section__line"></div>

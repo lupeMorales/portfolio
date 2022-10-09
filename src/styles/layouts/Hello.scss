@@ -13,7 +13,7 @@
     $backgroundColor 50%,
     $backgroundColor 100%
   );
-  animation: slide-in 0.8s linear 0.2s both;
+  /*   animation: slide-in 0.8s linear 0.2s both;
   @keyframes slide-in {
     from {
       transform: translateX(100%);
@@ -21,7 +21,7 @@
     to {
       transform: translateX(0%);
     }
-  }
+  } */
   &__dynamic-text {
     position: absolute;
     display: block;
