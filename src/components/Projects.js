@@ -8,16 +8,15 @@ const Projects = (props) => {
 
   return (
     <section className="projects animate__animated animate__fadeInRight">
-      <section className="section__hero projects__destktop">
-        <div className="title-container">
-          <div className="section__line"></div>
-          <h2 className="section__title title">proyectos</h2>
-        </div>
+      <section className="section__hero ">
+        <div className="projects__line"></div>
+        <h2 className="section__title">proyectos</h2>
 
         <p className="section__text--strong">
           Algunos de los proyectos que he realizados.
           <span className="line-break"></span> Si quieres ver más visita mi
           repositorio en
+          {}
           <a
             className="projects__link"
             href="https://github.com/lupeMorales"
@@ -25,7 +24,7 @@ const Projects = (props) => {
             target="_blank"
             title="github"
           >
-            GitHub
+            &nbsp;Github
           </a>
         </p>
       </section>

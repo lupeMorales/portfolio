@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section className="contact animate__animated animate__fadeInRight">
       <section className="contact__hero">
-        <div className="section__line"></div>
+        <div className="contact__line"></div>
         <h2 className="contact__title  ">contacto</h2>
         <div className="contact__container">
           {" "}

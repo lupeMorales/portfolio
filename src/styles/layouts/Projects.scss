@@ -8,6 +8,7 @@
     width: 100%;
     height: auto;
   }
+
   &__list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -16,4 +17,12 @@
   &__link {
     color: #f8f8f8;
   }
+}
+.projects__line {
+  display: inline-block;
+  width: 210px;
+  height: 2%;
+  margin-bottom: 10px;
+  background-color: $mainColor;
+  border-color: black;
 }

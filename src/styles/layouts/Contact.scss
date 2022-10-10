@@ -14,8 +14,8 @@
     background: linear-gradient(
       to bottom,
       $backgroundColor 0%,
-      $backgroundColor 70%,
-      $mainColor 70%,
+      $backgroundColor 60%,
+      $mainColor 60%,
       $mainColor 100%
     );
     @media all and (min-width: 1024px) {
@@ -25,7 +25,7 @@
   &__title {
     text-transform: uppercase;
     letter-spacing: -0.1px;
-    width: 160px;
+    width: 175px;
     height: auto;
     overflow-wrap: anywhere;
     font-size: clamp(7.8rem, 15vw, 22rem);
@@ -43,10 +43,12 @@
       line-height: 180px;
     }
   }
+
   &__container {
     display: flex;
     flex-direction: row;
     justify-content: right;
+
     @media all and (min-width: 1440px) {
       margin-top: 80px;
     }
@@ -59,4 +61,12 @@
     text-align: right;
     margin-top: 12rem;
   }
+}
+.contact__line {
+  display: inline-block;
+  width: 165px;
+  height: 2%;
+  margin-bottom: 10px;
+  background-color: $mainColor;
+  border-color: black;
 }

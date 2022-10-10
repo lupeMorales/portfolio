@@ -24,11 +24,12 @@ body {
 .section__title {
   text-transform: uppercase;
   letter-spacing: -0.5px;
-  width: 240px;
+  width: 250px;
   height: auto;
   overflow-wrap: anywhere;
   font-size: clamp(7.8rem, 15vw, 22rem);
   font-weight: 900;
+
   @media all and (min-width: 768px) {
     width: 300px;
     line-height: 120px;
@@ -53,7 +54,7 @@ body {
 .section__line {
   display: inline-block;
   width: 100px;
-  height: 4%;
+  height: 2%;
   margin-bottom: 10px;
   background-color: $mainColor;
   border-color: black;
