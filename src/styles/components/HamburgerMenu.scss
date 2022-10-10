@@ -1,3 +1,4 @@
+@import "../core/variables.scss";
 .navbar {
   &__icon {
     display: flex;
@@ -36,4 +37,49 @@
   .navbar__line--3 {
     transform: rotate(45deg) translate(-1.8px, -3.5px);
   }
+}
+.index {
+  position: fixed;
+  width: 40%;
+  height: auto;
+  background: linear-gradient(
+    to right,
+    $backgroundColor 0%,
+    $backgroundColor 15%,
+    $mainColor 15%,
+    $mainColor 100%
+  );
+  z-index: 600;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    height: 100vh;
+    @media all and (min-width: 1440px) {
+      width: 65%;
+    }
+  }
+
+  &__items {
+    list-style: none;
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: bold;
+    text-transform: capitalize;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.409);
+    &:hover {
+      color: black;
+    }
+  }
+}
+.hidden {
+  display: none;
 }
