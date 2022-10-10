@@ -8,12 +8,11 @@ import { Link } from "react-router-dom";
 const HamburguerMenu = () => {
   const [toggle, setToggle] = useState(false);
   const [hambMenuActive, setHambMenuActive] = useState(false);
-  /*   const [hambMenuActive, setHambMenuActive] = useState(""); */
+
   const handleMenu = (ev) => {
     ev.preventDefault();
     setToggle(!toggle);
     setHambMenuActive(!hambMenuActive);
-    /*   hambMenuActive === "" ? setHambMenuActive("active") : setHambMenuActive(""); */
   };
   const handleClick = () => {
     setToggle(!toggle);

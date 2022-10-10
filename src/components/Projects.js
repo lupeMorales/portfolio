@@ -25,7 +25,6 @@ const Projects = (props) => {
             target="_blank"
             title="github"
           >
-            {" "}
             GitHub
           </a>
         </p>
