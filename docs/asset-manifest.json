@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.d4783e20.css",
-    "main.js": "./static/js/main.84b394f4.js",
+    "main.css": "./static/css/main.e6424d33.css",
+    "main.js": "./static/js/main.218b0c9a.js",
     "static/media/CVLupeMorales-Frontend.pdf": "./static/media/CVLupeMorales-Frontend.6ed55193dbe90ba768cd.pdf",
     "static/media/harryPotter.png": "./static/media/harryPotter.5a7f84dfe6657b2812de.png",
     "static/media/lupe.jpg": "./static/media/lupe.0e5582629519812384a7.jpg",
@@ -10,11 +10,11 @@
     "static/media/piedraPapelTijera.png": "./static/media/piedraPapelTijera.ac2f4c212f94ec8259c0.png",
     "static/media/awesomeProfile.png": "./static/media/awesomeProfile.1108f910cc328fe3370f.png",
     "index.html": "./index.html",
-    "main.d4783e20.css.map": "./static/css/main.d4783e20.css.map",
-    "main.84b394f4.js.map": "./static/js/main.84b394f4.js.map"
+    "main.e6424d33.css.map": "./static/css/main.e6424d33.css.map",
+    "main.218b0c9a.js.map": "./static/js/main.218b0c9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4783e20.css",
-    "static/js/main.84b394f4.js"
+    "static/css/main.e6424d33.css",
+    "static/js/main.218b0c9a.js"
   ]
 }
