@@ -7,6 +7,7 @@ const NavContact = () => {
         rel="noreferrer"
         target="_blank"
         title="github"
+        aria-label="icono de github"
       >
         <i className="fa-brands fa-github-alt icon"></i>
       </a>
@@ -15,6 +16,7 @@ const NavContact = () => {
         rel="noreferrer"
         target="_blank"
         title="linkedin"
+        aria-label="icono de linkedin"
       >
         <i className="fa-brands fa-linkedin-in icon"></i>
       </a>
